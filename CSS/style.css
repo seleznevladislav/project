@@ -1,16 +1,18 @@
-p{
+body{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+		font-weight: 300;
     font-size: 56px;
     text-align: left;
+		width: 1233px;
+    margin-left: 197px;
+    margin-bottom: 32;
+    margin-top: 56px;
 }
 h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+		font-weight: 300;
     text-align: left;
     color:  rgb(3, 2, 2);
     font-size: 60px;
@@ -19,15 +21,13 @@ h2{
     margin-top: 120px;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+		font-weight: 400;
     text-align: left;
     color:  rgb(3, 2, 2);
     font-size: 36px;
     padding-left: 80px;
 }
 h4{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-align: left;
     color:  rgb(3, 2, 2);
@@ -37,32 +37,25 @@ h4{
     padding-top: 40px;
 }
 .news_article{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 .navigation{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     color:black;
     text-decoration: none;    
     margin-left: -16px;
 }
 .time{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-align: left;
     color:  #647382;
 }
 .a_text{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: black;
 }
 .bellow_list{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     list-style-type: none;
@@ -70,7 +63,6 @@ h4{
     line-height: 180%;
 }
 nav{
-    
     max-width: 1840px;
     background-color: #F9F8F5;
     padding: 14px 66px;    
@@ -87,12 +79,7 @@ nav{
 .header{
     padding: 40px 40px 0px 40px;
 }
-.article-top{
-    width: 1233px;
-    margin-left: 197px;
-    margin-bottom: 32;
-    margin-top: 56px;
-}
+
 .top-photo{
     width: 100%;    
 }
@@ -111,7 +98,6 @@ nav{
     margin: 32px 150px 32px 0px;
 }
 .duration{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 18px;
     padding-bottom: 16px;
@@ -122,8 +108,6 @@ nav{
     flex-direction: row;
 }
 .tag{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     font-size: 15px;
     color:  #647382;
     text-decoration: none;
@@ -148,16 +132,12 @@ nav{
     margin-top: 80px;
 }
 .top_text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  #647382;
     font-size: 34px;
     line-height: 150%;
 }
 .bottom_text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 18px;
@@ -179,8 +159,6 @@ nav{
     flex-direction: row;
 }
 .img_annotation{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 18px;
@@ -191,11 +169,10 @@ nav{
 .lists{
     display: flex;
     flex-direction: row;
-    margin: 0px 509.5px 32px 509.5px;
+    justify-content: center;
 
 }
 .title-middle{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-align: left;
     color:  black;
@@ -204,7 +181,6 @@ nav{
     width: 245px;
 }
 .title{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-align: left;
     color:  black;
@@ -220,9 +196,6 @@ nav{
     margin-left: 40px;
 }
 .right_music{
-    
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 18px;
@@ -231,8 +204,6 @@ nav{
     margin-left: -34px;
 }
 .left_music{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 18px;
@@ -251,8 +222,6 @@ nav{
     justify-content: space-between;
 }
 .under_h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 20px;
@@ -268,8 +237,6 @@ nav{
     border-color: black;
 }
 .h3_text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  #647382;
     font-size: 18px;
@@ -278,7 +245,6 @@ nav{
     width: 603px;
 }
 .button_bellow{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: left;
     color:  black;
@@ -324,7 +290,6 @@ nav{
     max-width: 586px;
 }
 .tags{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 15px;
     color:  #647382;
@@ -354,8 +319,6 @@ nav{
     justify-content: center;
 }
 .mail_text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: center;
     color:  black;
     font-size: 18px;
@@ -376,7 +339,6 @@ nav{
     border-top: white;
     border-left: white;
     font-size: large;
-    font-weight: 400;
     color: black;
 }
 .mail-button:focus{
@@ -392,7 +354,6 @@ nav{
      
 }
 .p-sbcrb{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-align: left;
     color:  black;
@@ -434,8 +395,6 @@ nav{
     width: 83px;
 }
 .footer-one-p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 16px;
@@ -459,8 +418,6 @@ nav{
 }
 .footer-two-a{
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 16px;
@@ -469,8 +426,6 @@ nav{
 }
 .footer-three-a{
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     text-align: left;
     color:  black;
     font-size: 16px;
