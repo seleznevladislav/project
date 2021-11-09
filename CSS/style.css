@@ -168,8 +168,12 @@ nav{
 }
 .lists{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+		max-width: 901px;
+		margin: 0 auto;
+		max-height: 330px;
+		flex-wrap: wrap;
+		justify-content: space-around;
 
 }
 .title-middle{
@@ -188,27 +192,18 @@ nav{
     line-height:  18px;
     width: 245px;
 }
-.left{
-    width: 432px;
+ul{
+	margin-inline-start: -40px;
 }
-.right{
-    width: 465px;
-    margin-left: 40px;
+li{
+  text-align: left;
+  color:  black;
+  font-size: 18px;
+  line-height:  39.4px;
+  list-style-type: none;
 }
-.right_music{
-    text-align: left;
-    color:  black;
-    font-size: 18px;
-    line-height:  39.4px;
-    list-style-type: none;
-    margin-left: -34px;
-}
-.left_music{
-    text-align: left;
-    color:  black;
-    font-size: 18px;
-    line-height:  39.4px;
-    margin-left: -17px;
+ol li{
+	list-style-type: decimal;
 }
 .third-block{
     margin: 32px 509.5px 40px 509.5px;
