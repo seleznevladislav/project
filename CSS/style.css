@@ -122,7 +122,6 @@ nav{
     justify-content: space-between;
     margin-top: 40px; 
     padding-left: 0px; 
-    padding-right: 7px; 
     list-style: none;
 }
 .top-text-block{
@@ -169,11 +168,11 @@ nav{
 .lists{
     display: flex;
     flex-direction: column;
-		max-width: 901px;
+		max-width: 1000px;
 		margin: 0 auto;
-		max-height: 330px;
+		max-height: 440px;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		align-content: space-around;
 
 }
 .title-middle{
@@ -192,8 +191,13 @@ nav{
     line-height:  18px;
     width: 245px;
 }
-ul{
+.lists ul{
 	margin-inline-start: -40px;
+	max-width: 431px;
+}
+ol{
+	margin-inline-start: -20px;
+	max-width: 431px;
 }
 li{
   text-align: left;
@@ -304,9 +308,8 @@ ol li{
 .mail-img{
     padding-top: 112px;
     max-width: 900px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+		display: block;
+		margin: auto;
 }
 .mail-div{
     display: flex;
@@ -324,48 +327,40 @@ ol li{
     padding-top: 24px;
 }
 .mail-button{
-    margin-top: 24px;
-    max-width: 740px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    padding-top: 24px;
     height: 36px;
     border-right:white;
     border-top: white;
     border-left: white;
     font-size: large;
     color: black;
+		width: 740px;
+		display: block;
+		margin: 0 auto;
 }
 .mail-button:focus{
     outline: none;
-}
-.button-link{
-     width: 315px; 
-     height: 56px; 
-     background: white; 
-     border: 3px solid black;
-     position: relative;
-     left: 115%;
-     
-}
-.p-sbcrb{
-    font-weight: 500;
-    text-align: left;
-    color:  black;
-    font-size: 18px;
-    text-decoration: none;
-    margin-left: 24px;
-    float: left;
 }
 .img-sbcrb{
     margin-top: 20px;
     margin-left: 116px;
 }
-.link-sbcrb{
-    text-decoration: none;
-    margin-top: 56px;
-    width: 740px;
-    
+a.button{
+	text-decoration: none;
+	width: 315px; 
+  height: 56px; 
+  border: 3px solid black;
+	display: inline-block;    
+	margin: 0 auto;
+	margin-top: 56px;
+	margin-bottom: 17px;
+}
+a span{
+	font-weight: 500;
+	color:  black;
+	font-size: 18px;
+	padding-left: 24px;
+	padding-bottom: 12px;
 }
 .footer-div{
     display: flex;
@@ -387,7 +382,15 @@ ol li{
     width: 149px;
 }
 .footer-one-lng{
-    width: 83px;
+	max-width: 32px;
+}
+.select{
+	border-left: #F9F8F5;
+	border-top: #F9F8F5;
+	border-right: #F9F8F5;
+	border-bottom: #F9F8F5;
+	font-size: 19px;
+	background-color: #F9F8F5;
 }
 .footer-one-p{
     text-align: left;
