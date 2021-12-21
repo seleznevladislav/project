@@ -24,47 +24,81 @@
                 </ul>
             </nav>
     </header>
-		<section id="form-section">
-			<form name="contact" method="POST" data-netlify="true" class="form">
-				<fieldset>
-					<legend>Личная информация</legend>
-					<input type="text" name="text-field" placeholder="Ваше имя" required>
-					<input type="text" name="text-field" placeholder="Ваша фамилия" required>
-					<input type="text" name="text-field" placeholder="Ваше отчество" required>
-					<p>
-						<label>Дата рождения: <input type="date" name="date"></label> 
-					</p>
-					<p> Пол:
-					<select name="quantity" required>
-            <option value="1">Мужской</option>
-            <option value="2">Женский</option>
-        	</select>
-					</p>
-				</fieldset>
-				<fieldset name="contact" method="POST" data-netlify="true">
-					<legend>Контактная информация</legend>
-					<p>
-						<lable for="password">Пароль: <input type="password" name="password" id="password"></lable>
-					</p>
-					<p>
-						<label>Email: <input type="email" name="email"></label>
-					</p>
-					<p>
-						<label>Номер телефона: <input type="tel" name="tel" required></label>
-					</p>
-					<p> Удобный интервал для связи:
-						<p><label><input type="checkbox" name="checked" value="1">Утро (с 8:00 до 12:00)</label></p>
-        		<p><label><input type="checkbox" name="checked" value="2" checked>День (с 12:00 до 18:00)</label></p>
-						<p><label><input type="checkbox" name="checked" value="3">Вечер (с 18:00 до 00:00)</label></p>
-						<p><label><input type="checkbox" name="checked" value="4">Ночь (с 00:00 до 04:00)</label></p>
-					</p>
-				</fieldset>
-					<p>
-						<button type="submit">Отправить<img src="img/arrow_right.svg" alt="Кнопка «отправить»" class="img-sbcrb"></button>
-						<button type="reset" disabled>Сбросить<img src="img/reset.png" alt="Кнопка «сбросить»" class="img-reset"></button>
-					</p>
-			</form>
-		</section>
+		<div class="form-section">
+			<div class="form-one">
+				<form name="contact" method="POST" data-netlify="true" class="form-form">
+					<fieldset>
+						<legend>Личная информация</legend>
+						<input type="text" name="text-field" placeholder="Ваше имя" required><span></span>
+						<input type="text" name="text-field" placeholder="Ваша фамилия" required><span></span>
+						<input type="text" name="text-field" placeholder="Ваше отчество" required><span></span>
+						<p>
+							<label for="id1">Дата рождения: </label><input type="date" name="date" required id="id1"><span></span>
+						</p>
+						<p> Пол:
+							<select required name="religion" class="form-control" id="religion">
+								<option value="">Не выбранно</option>
+								<option value="man">Мужской</option>
+								<option value="woman">Женский</option>
+						 </select><span></span>
+						</p>
+					</fieldset>
+					<fieldset>
+						<legend>Контактная информация</legend>
+						<p>
+							<label for="password">Пароль: </label><input type="password" name="password" id="password" required><span></span>
+						</p>
+						<p>
+							<label for="mail">Email: </label><input type="email" name="email" id="mail">
+						</p>
+						<p>
+							<label for="tel">Номер телефона: </label><input type="tel" name="tel" id="tel" required><span></span>
+						</p>
+						<span>Удобный интервал для связи:</span>
+							<p><input type="checkbox" id="ab1"> <label for="ab1" class="input-text">Утро (с 8:00 до 12:00)</label></p>
+							<p><input type="checkbox" id="ab2" checked> <label for="ab2" class="input-text">День (с 12:00 до 18:00)</label></p>
+							<p><input type="checkbox" id="ab3"> <label for="ab3" class="input-text">Вечер (с 18:00 до 00:00)</label></p>
+							<p><input type="checkbox" id="ab4"> <label for="ab4" class="input-text">Ночь (с 00:00 до 04:00)</label></p>
+					</fieldset>
+
+						<p>
+							<button type="submit" class="button-form">Отправить<img src="img/arrow_right.svg" alt="Кнопка «отправить»" class="img-sbcrb"></button>
+							<button type="reset" class="button-form-reset" disabled>Сбросить<img src="img/reset.png" alt="Кнопка «сбросить»" class="img-reset"></button>
+						</p>
+				</form>
+			</div>
+			<div class="form-two">
+				
+				<form	name="info" method="post" class="form-info">
+					<dl>
+						<dt>Псевдоэлемент</dt>
+						<dd>
+							Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет стилизовать определённую часть выбранного элемента. 
+							Например, псевдоэлемент ::first-line может быть использован для изменения шрифта первой строки абзаца.
+						</dd>
+						<dt>Псевдокласс</dt>
+						<dd>
+							Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его особое состояние.
+							Например, :hover может быть использован для изменения цвета кнопки при наведении курсора на неё.
+						</dd>
+					</dl>
+					<p>Псевдоклассы</p>
+					<p><input type="checkbox" id="cb1"> <label for="cb1">:active</label></p>	
+					<p><input type="checkbox" id="cb2" checked> <label for="cb2">:checked</label></p>
+					<p><input type="checkbox" id="cb3" checked> <label for="cb3">:hover</label></p>
+					<p><input type="checkbox" id="cb4" checked> <label for="cb4">:focus</label></p>
+					<p><input type="checkbox" id="cb5" checked> <label for="cb5">:not()</label></p>
+					<p><input type="checkbox" id="cb6"> <label for="cb6">:root</label></p>
+					<p>Псевдоэлементы</p>
+					<p class="right-checkbox"><input type="checkbox" id="cv1" checked> <label for="cv1">::after</label></p>
+					<p class="right-checkbox"><input type="checkbox" id="cv2"> <label for="cv2">::slotted</label></p>
+					<p class="right-checkbox"><input type="checkbox" id="cv3" checked> <label for="cv3">::before</label></p>
+					<p class="right-checkbox"><input type="checkbox" id="cv4" checked> <label for="cv4">::first-letter</label></p>
+					<p class="right-checkbox"><input type="checkbox" id="cv5"> <label for="cv5">::first-line</label></p>
+					<p class="right-checkbox"><input type="checkbox" id="cv6" checked> <label for="cv6">::selection</label></p>
+				</form>
+			</div>
+		</div>
 		<footer class="footer-form">
 			<div class="footer-div">
 					<div class="footer-one">
