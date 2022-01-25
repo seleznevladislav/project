@@ -235,7 +235,7 @@ nav{
     margin-top: -9px;
 }
 @media (max-width: 400px){
-	.img_annotation {font-size: 8px; margin-left: 10px; margin-top: 0px;}
+	.img_annotation {font-size: 9px; margin-left: 10px; margin-top: 0px;}
 	.middle-block{max-width: 90%;}
 	.two-img img{margin-top: 0px;}
 	.small-img{max-width: 100px; max-height: 100px;}
@@ -245,13 +245,14 @@ nav{
 .lists{
     display: flex;
     flex-direction: column;
-		max-width: 1000px;
+		max-width: 60%;
 		margin: 0 auto;
 		max-height: 440px;
 		flex-wrap: wrap;
-		align-content: space-around;
+		align-content: space-between;
 
 }
+.lists div{max-width: 48%;}
 .title-middle{
     font-weight: 600;
     text-align: left;
@@ -270,11 +271,9 @@ nav{
 }
 .lists ul{
 	margin-inline-start: -40px;
-	max-width: 431px;
 }
 ol{
 	margin-inline-start: -20px;
-	max-width: 431px;
 }
 li{
   text-align: left;
@@ -285,6 +284,13 @@ li{
 }
 ol li{
 	list-style-type: decimal;
+}
+@media (max-width: 400px){
+	.lists{max-width: 92%; max-height: 200px; margin-top: -25px;}
+	.title-middle{font-size: 9px;}
+	li{font-size: 9px; line-height: 150%;}
+	ol{margin-inline-start: -30px;}
+	
 }
 .third-block{
     margin: 32px 509.5px 40px 509.5px;
