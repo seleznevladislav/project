@@ -241,7 +241,7 @@ nav{
 }
 .lists{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 		max-width: 60%;
 		margin: 0 auto;
 		max-height: 440px;
@@ -370,7 +370,7 @@ max-width: none;
 @media (max-width: 400px){
 	.middle-section{padding-top: 5px;}
 	.color-block{flex-direction: column;}
-	.color-block .bass{padding-top: 20px; max-height: 100%;}
+	.color-block .bass{padding-top: 20px; max-height: 250px;}
 	.color-div{padding-right: 0px;}
 	.under_h3{padding-top: 5px; padding-left: 10px; margin-left: 0px; font-size: 10px;}
 	.bottom-hr{margin-left: 10px; width: 8px;}
@@ -523,7 +523,6 @@ max-width: none;
 	.tags{font-size: 6px; padding: 2px 8px;}
 	.demo-news{display: none;}
 }
-
 .mail-img{
     margin-top: 112px;
     max-width: 900px;
@@ -539,9 +538,8 @@ max-width: none;
     text-align: center;
     color:  black;
     font-size: 18px;
-    line-height: 32,4px;
-    max-width: 600px;
-    width: 50%;
+    line-height: 180%;
+    max-width: 40%;
     padding-top: 24px;
 }
 .mail-button{
@@ -552,7 +550,7 @@ max-width: none;
     border-left: var(--secondary-color);
     font-size: large;
     color: black;
-		width: 740px;
+		max-width: 740px;
 }
 .mail-button:focus{
     outline: none;
@@ -560,11 +558,6 @@ max-width: none;
 .img-sbcrb{
    padding-left: 120px;
 	 vertical-align: middle;
-}
-.img-reset{
-	padding-left: 130px;
-	vertical-align: middle;
-	width: 20px;
 }
 button{
 	width: 315px; 
@@ -577,6 +570,11 @@ button{
 	padding-left: 24px;
 	background-color: var(--secondary-color);
 }
+.img-reset{
+	padding-left: 130px;
+	vertical-align: middle;
+	width: 20px;
+}
 button[class="button-form"], button[class="button-sbc"]{
 	border: 3px solid rgb(0, 0, 0);
 }
@@ -585,6 +583,14 @@ button[class="button-form"]:hover, button[class="button-sbc"]:hover{
 	box-shadow: 0px 0px 5px 0px #000000;
 	transition: .3s ease-out .1s;
 	
+}
+@media(max-width: 400px){
+	.mail-img{max-width: 60px;}
+	h4{font-size: 18px; padding-top: 10px;}
+	.mail_text{font-size: 13px; max-width: 85%; padding-top: 0px;}
+	.mail-button{max-width: 100%; padding-top: 5px;}
+	button{font-size: 18px; width: 200px; padding-left: 15px; margin-top: 30px;}
+	.img-sbcrb{padding-left: 20px;}
 }
 .footer-div{
     display: flex;
